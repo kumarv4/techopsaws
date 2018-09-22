@@ -1,0 +1,20 @@
+---
+stackname: cf-stack-vkb
+nameofregion: us-east-1
+vpcname: vpc-vkb
+netcidr: 10.1.0.0/16
+igwname: igw-vkb
+firstpublicsubnetname: sn1-web-public
+firstpublicsubnetavailabilityzone: us-east-1a
+firstpublicsubnetcidr: 10.1.1.0/24
+secondpublicsubnetname: sn2-web-public
+secondpublicsubnetavailabilityzone: us-east-1b
+secondpublicsubnetcidr: 10.1.2.0/24
+routetablename: rt-vkb-public
+privateroutetablename: rt-vkb-private
+firstprivatesubnetname: sn1-app-private
+firstprivatesubnetcidr: 10.1.3.0/24
+firstprivatesubnetavailabilityzone: us-east-1a
+secondprivatesubnetname: sn2-app-private
+secondprivatesubnetcidr: 10.1.4.0/24
+secondprivatesubnetavailabilityzone: us-east-1b
